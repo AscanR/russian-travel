@@ -1,0 +1,14 @@
+.footer__position {
+    margin: 92px 48px 24px;
+  }
+  @media screen and (max-width: 768px) {
+    .footer__position {
+      margin: 88px 24px 24px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 426px) {
+    .footer__position {
+      margin: 64px 16px 24px;
+    }
+  }
+  

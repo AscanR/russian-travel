@@ -1,26 +1,20 @@
 .cover {
+  padding: 0;
   color: #fff;
-  margin: 92px 48px 0;
-  width: 1184px;
+  max-width: 1184px;
 }
 @media screen and (max-width: 1024px) {
   .cover {
-    color: #fff;
-    margin: 92px 0 0;
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 @media screen and (max-width: 768px) {
   .cover {
-    color: #fff;
-    margin: 90px 0 0;
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 426px) {
   .cover {
-    color: #fff;
-    margin: 66px 0 0;
-    width: 320px;
+    max-width: 320px;
   }
 }
