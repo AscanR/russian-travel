@@ -4,28 +4,28 @@
   gap: 40px;
   max-width: 984px;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
-  grid-template-columns: 460px 484px;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   padding: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     gap: 32px;
     max-width: 928px;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     gap: 28px;
     max-width: 720px;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
   }
 }
-@media screen and (min-width: 320px) and (max-width: 426px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
     max-width: 320px;
     gap: 0;
     grid-template-rows: repeat(1, minmax(min-content, max-content));
-    grid-template-columns: 320px;
+    grid-template-columns: minmax(min-content, 320px);
   }
 }
